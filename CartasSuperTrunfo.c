@@ -19,9 +19,9 @@ printf("Digite o PIB:");
 scanf("%f", &PIB);
 
 printf("\nOs dados informados da cidade %s sao:\n", cod_cidade);
-printf("Cidade: %s.\n" cidade);
+printf("Cidade: %s.\n", cidade);
 printf("Populacao: %d.\nPontos turisticos: %d\n", populacao, pontos_tur);
-printf("Area total: %.1f.\nPIB: %.1f.", area, PIB);
+printf("Area total: %.3f.\nPIB: %.3f.", area, PIB);
 
 return 0;
 }
